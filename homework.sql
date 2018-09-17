@@ -1,0 +1,11 @@
+-- SELECT * FROM movies;
+-- SELECT name FROM people;
+-- UPDATE people SET name = 'Neil Ruthven' WHERE name = 'Neal Rethvun';
+-- SELECT name FROM people WHERE name = 'Craig Dunlop'
+-- DELETE FROM movies WHERE title = 'Batman Begins';
+-- INSERT INTO people (name) VALUES ('John McCollum');
+-- DELETE FROM people WHERE name = 'Alistair Kane';
+-- INSERT INTO movies (title, year, show_time) VALUES ('Avengers:Infinity War', 2018, '00:00');
+-- UPDATE movies SET show_time = '20:00' WHERE title = 'Guardians of the Galaxy';
+-- SELECT * FROM movies
+DELETE FROM  movies WHERE id BETWEEN 1 AND 5;
